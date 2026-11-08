@@ -1,0 +1,24 @@
+C:\Users\Анна\CLionProjects\lab4_KasianchukAnna_k25\cmake-build-release-o3\lab4.exe
+Demo: string(data) = 13 7
+
+Generating test files (6 files x 500000 operations per scenario)...
+
+Scenario a, threads=1, total ops=3000000, runs (ms): 226.9 272.2 263.0 219.1 221.7 | avg = 240.6 ms
+Scenario a, threads=2, total ops=3000000, runs (ms): 305.6 305.9 321.5 297.9 309.2 | avg = 308.0 ms
+Scenario a, threads=3, total ops=3000000, runs (ms): 359.0 344.9 359.6 350.7 335.7 | avg = 350.0 ms
+
+Scenario b, threads=1, total ops=3000000, runs (ms): 165.2 165.1 174.6 186.3 169.3 | avg = 172.1 ms
+Scenario b, threads=2, total ops=3000000, runs (ms): 223.9 226.1 217.4 225.5 220.7 | avg = 222.7 ms
+Scenario b, threads=3, total ops=3000000, runs (ms): 280.6 264.5 256.7 258.0 275.1 | avg = 267.0 ms
+
+Scenario c, threads=1, total ops=3000000, runs (ms): 113.4 115.5 123.1 104.5 109.1 | avg = 113.1 ms
+Scenario c, threads=2, total ops=3000000, runs (ms): 153.7 151.5 142.7 144.3 148.7 | avg = 148.2 ms
+Scenario c, threads=3, total ops=3000000, runs (ms): 168.1 179.0 174.5 172.6 173.7 | avg = 173.6 ms
+
+Average time, ms (rows - test files, columns - threads)
+                                        1 thread   2 threads   3 threads
+a) frequencies from the task               240.6       308.0       350.0
+b) all frequencies equal                   172.1       222.7       267.0
+c) manually chosen, mismatching            113.1       148.2       173.6
+
+Process finished with exit code 0
